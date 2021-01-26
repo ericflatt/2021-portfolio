@@ -1,0 +1,29 @@
+.face {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.eye {
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.69);
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background: white;
+    border: 1px solid black;
+}
+
+.eye:after {
+    content: " ";
+    bottom: 25px;
+    right: 10px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 15px;
+}
