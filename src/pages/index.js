@@ -8,6 +8,8 @@ import Nav from "../components/nav"
 import Hero from "../components/hero"
 import Eyes from "../components/Eyes"
 
+import Popup from "../components/Modal"
+
 import "../styles/main.scss"
 
 const IndexPage = () => (
@@ -16,6 +18,7 @@ const IndexPage = () => (
     <Nav/>
     <Eyes />
     <Hero />
+    <Popup />
     <Footer />
     </Layout>
 )

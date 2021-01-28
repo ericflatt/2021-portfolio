@@ -1,0 +1,49 @@
+.modalButton{
+    cursor: pointer;
+}
+
+.overlay{
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.modal-close{
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 21px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.modal-container {
+    width: 85vw;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    @media only screen and (max-width: 800px) {
+      width: auto;
+    }
+  }
+
+.modal-content{
+    text-align: center;
+}
+
+.modal-image{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.modal-text{
+    color: black;
+    margin-top: -25px;
+    font-weight: 700;
+    text-align: left;
+
+    @media only screen and (max-width:800px){
+        margin-top: 0;;
+    }
+}
